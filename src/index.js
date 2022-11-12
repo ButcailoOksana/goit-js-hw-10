@@ -42,8 +42,7 @@ function onSearchboxInput() {
       infoBox.innerHTML = '';
       console.log(error);
       Notiflix.Notify.failure('Oops, there is no country with that name');
-      // Notiflix.Report.failure('извините, вы ищите какую-то хрень')
-    });
+        });
 }
 
 function renderMarcupList(countries) {
